@@ -59,21 +59,7 @@ public class Main {
         Locale.setDefault(Locale.US);
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
-        String fakeInputString = "Design\n" +
-                "Alex\n" +
-                "MID_LEVEL\n" +
-                "1200.00\n" +
-                "3\n" +
-                "20/08/2018\n" +
-                "50.00\n" +
-                "20\n" +
-                "13/06/2018\n" +
-                "30.00\n" +
-                "18\n" +
-                "25/08/2018\n" +
-                "80.00\n" +
-                "10\n" +
-                "08/2018";
+        String fakeInputString = "Design\nAlex\nMID_LEVEL\n1200.00\n3\n20/08/2018\n50.00\n20\n13/06/2018\n30.00\n18\n25/08/2018\n80.00\n10\n08/2018";
         ByteArrayInputStream fakeInput = new ByteArrayInputStream(fakeInputString.getBytes());
         System.setIn(fakeInput);
 
